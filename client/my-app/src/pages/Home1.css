@@ -1,0 +1,17 @@
+.Home-page{
+    width: 100%;
+    height: 91.5vh;
+    max-height: auto;
+
+}
+.homeing{
+    width: 400px;
+    height: 400px;
+}
+.viewBook{
+    border-radius: 25px;
+    border: px;
+    padding: 3px 20px;
+    width: 130px;
+    margin-top: 10px;
+}

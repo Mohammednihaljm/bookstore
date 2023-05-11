@@ -1,0 +1,51 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* height: 100%; */
+    width: 99px;
+    background-color:#FBFBFB;
+    z-index: 999;
+    transition: transform 0.2s ease-in-out;
+    
+    
+  }
+  
+  .sidebar-content {
+    display: none;
+    height: 100%;
+    padding: 20px;
+    transition: opacity 0.2s ease-in-out;
+    
+    
+  }
+ 
+  
+  .sidebar-content.open {
+    display: block;
+    opacity: 1;
+  }
+  
+  button {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    border-radius: 10px;
+    padding-top: 3px;
+    border: 1px  ;
+    background-color:#FBFBFB;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  li {
+    padding: 9px 0;
+    
+  }
+ 
+  
